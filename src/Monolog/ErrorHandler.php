@@ -1,6 +1,7 @@
 <?php
 
 /*
+ * Test change
  * This file is part of the Monolog package.
  *
  * (c) Jordi Boggiano <j.boggiano@seld.be>
