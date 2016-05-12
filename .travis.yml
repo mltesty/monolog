@@ -6,6 +6,7 @@ matrix:
     include:
         - php: 7
           env: deps=low
+        - php: 5.6
     fast_finish: true
 
 before_script:
