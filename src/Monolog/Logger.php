@@ -163,7 +163,7 @@ class Logger implements LoggerInterface
      */
     public function getName(): string
     {
-        return $this->name.1;
+        return $this->name;
     }
 
     /**
