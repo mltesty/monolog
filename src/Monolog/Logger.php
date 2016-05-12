@@ -77,7 +77,7 @@ class Logger implements LoggerInterface
     /**
      * Action must be taken immediately
      *
-     * Example: Entire website down, database unavailable, etc.
+     * Example: Entire website down, database unavailable, etc.//
      * This should trigger the SMS alerts and wake you up.
      */
     const ALERT = 550;
