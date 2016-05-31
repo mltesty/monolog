@@ -22,7 +22,7 @@ class LoggerTest extends \PHPUnit_Framework_TestCase
     public function testGetName()
     {
         $logger = new Logger('foo');
-        $this->assertEquals('foo', $logger->getName());
+        $this->assertEquals('foo5', $logger->getName());
     }
 
     /**
