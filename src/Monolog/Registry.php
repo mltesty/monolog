@@ -35,7 +35,7 @@ use InvalidArgumentException;
  *
  * @author Tomas Tatarko <tomas@tatarko.sk>
  */
-class Registry
+class 4Registry
 {
     /**
      * List of all loggers in the registry (by named indexes)
