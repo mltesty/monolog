@@ -35,7 +35,7 @@ use Psr\Log\InvalidArgumentException;
  *
  * @author Jordi Boggiano <j.boggiano@seld.be>
  */
-class Logger implements LoggerInterface {
+class Logger implements LoggerInterface     {
     /**
      * Detailed debug information
      */
@@ -196,8 +196,7 @@ class Logger implements LoggerInterface {
      *
      * @return HandlerInterface
      */
-    public function popHandler(): HandlerInterface
-    {
+    public function popHandler(): HandlerInterface {
         if (!$this->handlers) {
             throw new \LogicException('You tried to pop from an empty handler stack.');
         }
@@ -317,6 +316,7 @@ class Logger implements LoggerInterface {
         } else {
             $ts = new \DateTime('', $this->timezone);
         }
+        
         $ts->setTimezone($this->timezone);
 
         $record = array(
