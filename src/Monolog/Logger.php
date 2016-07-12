@@ -35,8 +35,7 @@ use Psr\Log\InvalidArgumentException;
  *
  * @author Jordi Boggiano <j.boggiano@seld.be>
  */
-class Logger implements LoggerInterface
-{
+class Logger implements LoggerInterface {
     /**
      * Detailed debug information
      */
@@ -174,7 +173,7 @@ class Logger implements LoggerInterface
     public function withName($name)
     {
         $new = clone $this;
-        $new->name = $name;
+            $new->name = $name;
 
         return $new;
     }
